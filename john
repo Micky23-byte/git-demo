@@ -1,0 +1,18 @@
+Runs git init in a directory creates a hidden .git folder there — that folder contains all the metadata and history for Git to track changes. 
+Atlassian
++2
+GeeksforGeeks
++2
+
+It can turn an existing project (with files already) into a Git-tracked project. 
+docs.gitopia.com
+
+After git init, you can start adding files (git add) and committing changes (git commit). 
+DataCamp
+
+There’s also a --bare option: git init --bare creates a repository without a working directory. That’s usually used for remote or shared repos. 
+Atlassian
+
+Running git init again in an already initialized repository is safe — it won’t overwrite your historyTo delete a file in Linux, you use the rm command.
+
+Basic usage.
